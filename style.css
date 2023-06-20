@@ -1,0 +1,526 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.logo img {
+    height: 100px;
+    padding-left: 30px;
+    cursor: pointer;
+
+}
+
+.nav {
+    border-bottom: 2px solid #FF0481;
+    height: 90px;
+}
+
+.navbarNav {
+    padding-right: 50px;
+}
+
+.navlist {
+    gap:15px
+}
+
+.nav-link {
+    color: black;
+    transition: transform 250ms;
+    font-size: 18px;
+
+}
+
+.nav-link:hover {
+    color:#FF0481;
+    transform: translateY(-10px);
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    border-bottom: 2px solid #FF0481;
+    background-color: #F3CFC6;
+
+}
+
+.profile-img img {
+    height:300px;
+    border-radius: 100%;
+
+}
+.profile-img{
+    border: 5px dotted #FF0481;
+    border-radius: 50%;
+    
+}
+
+.profile-img:hover {
+    border-style:dashed ;
+    animation: spin 10s infinite linear;
+}
+
+.profile-img:hover span {
+    animation: spin 10s infinite reverse linear;
+
+}
+
+span {
+    display: inline-block;
+  }
+  
+  @keyframes spin {
+    100% { transform: rotate(1turn); }
+  }
+
+  .profile-text {
+    padding-top: 50px;
+  }
+
+  .text1 {
+    color:#FF0481;
+    font-weight: bold;
+    font-family: 'Sacramento';
+  }
+
+  .text2 {
+   font-size: 3em;
+   font-weight: bolder;
+  }
+
+  .text3 {
+    font-weight: 600;
+  }
+
+  .text4 {
+    width: 411px;
+    padding-bottom: 10px;
+    font-size: 1em;
+  }
+
+  .resume-button {
+    padding: 10px 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid #FF0481;
+    text-decoration: none;
+    cursor: pointer;
+    
+
+  }
+
+  .resume-button:hover {
+    background-color: #FF0481;
+    color: white;
+    border: 2px solid white;
+  }
+
+  .icons1 {
+    margin-top: 25px;
+    
+
+  }
+
+  .icons1 i {
+    color:black;
+    padding-right: 15px;
+    transition: transform 250ms;
+    cursor: pointer;
+    font-size: 20px;
+  } 
+
+  .icons1 i:hover {
+    color: #FF0481;
+    transform: translateY(-5px);
+  }
+
+  #aboutMe {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding-top: 60px;
+   padding-bottom: 60px;
+   border-bottom: 2px solid #FF0481;
+   
+  }
+
+  .about h1 {
+    font-family: 'Sacramento';
+    color: black;
+    font-weight: bold;
+    border-bottom: 3px solid #FF0481;
+   
+  }
+
+  .about-img img {
+    height: 300px;
+  }
+
+  .about p {
+    width: 400px;
+    padding-bottom: 10px;
+  }
+
+  .contact-button {
+    padding: 10px 10px;
+    background-color: #FF0481;
+    color: white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid white;
+    
+
+  }
+
+  .contact-button:hover {
+    background-color: white;
+    color:#FF0481;
+    border:2px solid #FF0481;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    gap: 40px;
+    border-bottom: 2px solid #FF0481;
+    background-color: #F3CFC6;
+   
+ 
+  }
+
+  .col img {
+    height: 9em;
+  
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .col {
+   border: 2px solid black;
+    max-width: 350px;
+    padding: 10px;
+    transition: transform 250ms;
+    margin-top: 20px;
+  
+  }
+
+  .col:hover {
+    border: 2px solid black;
+    transform: translateY(-10px);
+    background-color: #FF0481;
+  }
+
+  .iyochi-top-a { 
+    font-size: 35px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    color: black;
+    font-family: 'Sacramento';
+    font-weight: bold;
+    padding-top: 5px;
+  }
+
+  .iyochi-top-a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+  }
+
+  .iyochi-top p {
+    padding-top: 20px;
+    color: black;
+  }
+
+  .iyochi-top img {
+    width: 320px;
+  }
+
+  .projects i {
+    font-size: 20px;
+    padding-right: 10px;
+    color: black;
+  }
+
+  .projects i:hover {
+    animation: shake 0.7s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  .ebele-top-a {
+    font-size: 35px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Sacramento';
+    padding-top: 5px;
+
+  }
+
+  .ebele-top-a:hover {
+    color: black;
+  }
+
+  .ebele-top p {
+    padding-top: 20px;
+    color: black;
+    
+  }
+
+  .kewi-top-a {
+    font-size: 35px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Sacramento';
+  }
+
+  .kewi-top-a:hover {
+    color: black;
+  }
+
+  .kewi-top p {
+    padding-top: 20px;
+    color: black;
+    
+  }
+
+  .indozi-top-a { 
+    font-size: 35px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    color: black;
+    font-family: 'Sacramento';
+    font-weight: bold;
+    padding-top: 5px;
+  }
+
+  .indozi-top-a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+  }
+
+  .indozi-top p {
+    padding-top: 20px;
+    color: black;
+  }
+  .movers-top-a { 
+    font-size: 35px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    color: black;
+    font-family: 'Sacramento';
+    font-weight: bold;
+    padding-top: 5px;
+  }
+
+  .movers-top-a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+  }
+
+  .movers-top p {
+    padding-top: 20px;
+    color: black;
+  }
+
+  #contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+   text-align: center;
+  }
+
+  #contact h1 {
+    font-family: 'Sacramento';
+    font-weight: 700;
+    font-size: 5vw;
+    color: #FF0481;
+    
+  }
+
+  #contact h3 {
+    color: black;
+    font-size: 20px;
+    
+  }
+
+  #contact a {
+    color: #FF0481;
+    font-size: 30px;
+  
+  }
+
+  #contact i:hover {
+    animation: shake 0.7s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  @media (max-width:1024px) {
+    .col {
+      max-width: 225px;
+    }
+
+    .col img {
+      width: 203px;
+      height: 100px;
+    }
+  }
+
+
+
+ 
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+  @media (max-width: 768px) {
+    .navbarNav {
+      background-color: white;
+      padding-left: 10px;
+    }
+
+    .logo img {
+      height: 60px;
+    }
+
+    .nav {
+      height: 80px;
+    }
+
+
+    .profile {
+      flex-direction: column;
+      gap: 50px;
+      
+    }
+
+    .profile-text {
+      text-align: center;
+    }
+
+    .text1 {
+      max-width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .text2 {
+      font-size: 28px;
+      max-width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .text3 {
+      width: 275px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: fit-content;
+    }
+
+
+    .text4 {
+      width: 270px;
+      font-size: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .profile-img img{
+      height: 150px;
+    }
+
+    #aboutMe {
+      flex-direction: column-reverse;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      gap: 60px;
+    }
+
+    .about h1 {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      max-width: fit-content;
+      
+    }
+
+    .about p {
+      
+      text-align: center;
+      width: 280px;
+      font-size: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .about-img img {
+      height: 200px;
+    }
+
+    .projects {
+      grid-template-columns: auto;
+    }
+
+   
+
+  }
