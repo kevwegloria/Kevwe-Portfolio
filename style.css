@@ -360,6 +360,20 @@ span {
     color: black;
   }
 
+  .todolist-top-a { 
+    font-size: 35px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    color: black;
+    font-family: 'Sacramento';
+    font-weight: bold;
+    padding-top: 5px;
+  }
+
+  .todolist-top img {
+    height: 109px;
+  }
   #contact {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -414,6 +428,8 @@ span {
       width: 203px;
       height: 100px;
     }
+
+   
   }
 
 
