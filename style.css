@@ -203,14 +203,62 @@ span {
  
   }
 
-  .col img {
+  .iyochi img {
     height: 9em;
   
     cursor: pointer;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
+  .foodie img {
+    height: 9em;
+  
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .kewi img {
+    height: 9em;
+  
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .movers img {
+    height: 9em;
+  
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .ebele img {
+    height: 9em;
+  
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .indozi img {
+    height: 9em;
+  
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .sign img {
+    height: 9em;
+  
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .sign-img {
+    display: flex;
+    gap: 5px;
+  }
 
+
+ 
   .col {
    border: 2px solid black;
     max-width: 350px;
@@ -237,13 +285,51 @@ span {
     font-weight: bold;
     padding-top: 5px;
   }
+  .sign-top-a { 
+    font-size: 35px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    color: black;
+    font-family: 'Sacramento';
+    font-weight: bold;
+    padding-top: 5px;
+  }
+  .foodie-top-a { 
+    font-size: 35px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    color: black;
+    font-family: 'Sacramento';
+    font-weight: bold;
+   
+  }
+ 
+ 
 
   .iyochi-top-a:hover {
     color: black;
     border-bottom: 2px solid black;
   }
+  .sign-top-a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+  }
+  .foodie-top-a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+  }
 
   .iyochi-top p {
+    padding-top: 20px;
+    color: black;
+  }
+  .sign-top p {
+    padding-top: 20px;
+    color: black;
+  }
+  .foodie-top p {
     padding-top: 20px;
     color: black;
   }
@@ -373,7 +459,7 @@ span {
   }
 
   .todolist-top img {
-    height: 130px;
+    height: 9em;
   }
   #contact {
     padding-top: 50px;
@@ -430,7 +516,7 @@ span {
       height: 100px;
     }
 
-   
+  
   }
 
 
@@ -661,4 +747,8 @@ span {
   }
   .loaded #loader {
     opacity: 0;
+  }
+
+  .todolist img {
+  width: 90px;
   }
